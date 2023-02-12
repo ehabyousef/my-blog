@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --side-color: #e4efe7;
+  --setion-color: #fdfaf6;
+  --white-color: #fdfaf6;
+  --dark-color: #064420;
+  --hover-color: #4fa095;
+  --face: #1877f2;
+  --insta: #f56040;
+  --linkedln: #00a0dc;
+  --github: #333;
+  --telegram: #0088cc;
+  --whatsapp: #128c7e;
+  --youtube: #ff0000;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--wide-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--hover-color);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.back {
+  padding: 15px;
+  background-color: #4eaf70eb;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  color: #fffdc9;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  z-index: 10;
+}
+.container {
+  padding: 20px;
+  margin: 0px 200px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .container {
+    margin: 0px 10px;
+  }
+}
+.container h2 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+.container .image {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container .image img {
+  width: 450px;
+}
+@media (max-width: 991px) {
+  .container .image img {
+    width: 250px;
+  }
+}
+.container .text {
+  font-size: 20px;
+  text-align: end;
+  margin: 10px 0;
+}
+.container .text p {
+  margin: 20px 0;
+  padding-top: 20px;
+}
+.kalam p {
+  font-size: 22px;
+  text-align: end;
+  margin: 20px;
+}
+.kalam img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  margin: auto;
+}
+@media (max-width: 845px) {
+  .kalam img {
+    width: 470px;
+  }
+}
+@media (max-width: 565px) {
+  .kalam img {
+    width: 300px;
+  }
+}
+img {
+  width: 700px;
+  display: grid;
+  margin: auto;
+}
+footer {
+  display: flex;
+  font-size: 20px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+footer .icon {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-left: 12px;
+}
+footer .icon i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  stroke-width: 0;
+  font-weight: normal;
+  transition: 0.3s;
+  color: var(--dark-color);
+}
+footer .icon li:nth-child(1) a:hover i {
+  color: var(--face);
+}
+footer .icon li:nth-child(2) a:hover i {
+  color: var(--whatsapp);
+}
+footer .icon li:nth-child(3) a:hover i {
+  color: var(--github);
+}
+footer .icon li:nth-child(4) a:hover i {
+  color: var(--insta);
+}
+footer .icon li:nth-child(5) a:hover i {
+  color: var(--linkedln);
+}
