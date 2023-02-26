@@ -180,6 +180,10 @@ a {
   align-content: center;
   box-shadow: 1px 1px 2px #87a58f;
   border: 1px solid #ccc;
+  transition: .5s;
+}
+.page-1 .aside .social li:hover{
+  box-shadow: 0px 1px 7px #333;
 }
 .page-1 .aside .social a {
   color: var(--dark-color);
