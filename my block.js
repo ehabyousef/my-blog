@@ -10,7 +10,7 @@ function prev() {
   i = (i - 1 + slides.length) % slides.length;
   slides[i].classList.add("active");
 }
-setInterval(next, 7000);
+setInterval(next, 5000);
 // **************         ********************         ***********
 
 let sun = document.getElementById("sun");
