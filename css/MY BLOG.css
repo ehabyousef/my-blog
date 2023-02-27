@@ -228,7 +228,7 @@ a {
   margin: 10px 0 20px 0;
 }
 .page-1 .aside .copyright span {
-  color: var(--hover-color);
+  color: var(--insta);
   text-transform: capitalize;
 }
 
