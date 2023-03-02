@@ -41,7 +41,7 @@ const autowrite = () => {
   let mytitle = "Ehab Y Lasheen";
   title.innerHTML = mytitle.slice(0, x);
   x++;
-  if (x > title.length) {
+  if (x > mytitle.length) {
     x = 1;
   }
 };
