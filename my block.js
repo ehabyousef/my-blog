@@ -36,7 +36,8 @@ moon.addEventListener("click", function () {
   document.documentElement.style.setProperty("--setion-color", "#fdfaf6");
 });
 let title = document.querySelector("#title");
-const autowrite=() => {
+const autowrite = () => {
   let mytitle = "Ehab Y Lashhen";
+  title.innerHTML = mytitle.split(0, x);
   
-}
+};
