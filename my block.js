@@ -36,12 +36,13 @@ moon.addEventListener("click", function () {
   document.documentElement.style.setProperty("--setion-color", "#fdfaf6");
 });
 let title = document.querySelector("#title");
+let x = 1;
 const autowrite = () => {
   let mytitle = "Ehab Y Lashhen";
   title.innerHTML = mytitle.slice(0, x);
   x++;
   if (x > title.length) {
-    x = 0;
+    x = 1;
   }
 };
 const stopwrite = setInterval(autowrite, 300);
