@@ -38,6 +38,7 @@ moon.addEventListener("click", function () {
 let title = document.querySelector("#title");
 const autowrite = () => {
   let mytitle = "Ehab Y Lashhen";
-  title.innerHTML = mytitle.split(0, x);
+  title.innerHTML = mytitle.slice(0, x);
+  x++;
   
 };
