@@ -1,3 +1,4 @@
+
 let slides = document.querySelectorAll(".landing > div");
 let i = 0;
 function next() {
@@ -13,11 +14,10 @@ function prev() {
 setInterval(next, 5000);
 // **************         ********************         ***********
 
+// change mood
 let sun = document.getElementById("sun");
 let moon = document.getElementById("moon");
-
 // console.log(sun, moon);
-
 sun.addEventListener("click", function () {
   this.classList.add("sleep");
   moon.classList.remove("sleep");
@@ -35,6 +35,7 @@ moon.addEventListener("click", function () {
   document.documentElement.style.setProperty("--dark-color", "#02150A");
   document.documentElement.style.setProperty("--setion-color", "#fdfaf6");
 });
+//auto write
 let title = document.querySelector("#title");
 let x = 1;
 const autowrite = () => {
