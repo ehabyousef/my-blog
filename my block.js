@@ -1,4 +1,4 @@
-
+// slider next&prev
 let slides = document.querySelectorAll(".landing > div");
 let i = 0;
 function next() {
