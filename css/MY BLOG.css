@@ -340,7 +340,7 @@ a {
 }
 .landing button:hover {
   color: var(--hover-color);
-  background-color: red;
+  background-color: rgb(0, 3, 3);
 }
 .landing .arab {
   display: flex;
