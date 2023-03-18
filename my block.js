@@ -46,4 +46,4 @@ const autowrite = () => {
     x = 1;
   }
 };
-const stopwrite = setInterval(autowrite, 350);
+const stopwrite = setInterval(autowrite, 380);
